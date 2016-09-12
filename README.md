@@ -13,5 +13,7 @@ The script must be executed with the destination directory in first parameter.
 
  - qemu (qemu-system-x86_64)
  - cpio
+ - gzip
+
  
- 
+Testing on ArchLinux & Debian
