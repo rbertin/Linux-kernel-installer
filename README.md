@@ -15,10 +15,11 @@ Otherwise, for the remote debugging:
 
 
 ```bash
-set architecture i386:x86-64
-file vmlinux
-target remote :1234
-load vmlinux
+$ gdb
+> set architecture i386:x86-64
+> file vmlinux
+> target remote :1234
+> load vmlinux
 ```
 
 At this time should be able to put breakpoint and so on.
