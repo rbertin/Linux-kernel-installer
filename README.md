@@ -14,7 +14,8 @@ If you don't want qemu waiting for gdb connection, remove `-S -s` parameter at t
 Otherwise, for the remote debugging:
 
 
-```set architecture i386:x86-64
+```bash
+set architecture i386:x86-64
 file vmlinux
 target remote :1234
 load vmlinux
