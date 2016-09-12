@@ -16,4 +16,4 @@ The script must be executed with the destination directory in first parameter.
  - gzip
 
  
-Testing on ArchLinux & Debian
+Tested on ArchLinux & Debian
